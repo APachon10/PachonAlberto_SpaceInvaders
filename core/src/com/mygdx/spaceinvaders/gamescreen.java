@@ -15,7 +15,6 @@ public class gamescreen extends ApplicationAdapter {
 		batch = new SpriteBatch();
 		img = new Texture("badlogic.jpg");
 	}
-
 	@Override
 	public void render () {
 		Gdx.gl.glClearColor(1, 0, 0, 1);
@@ -24,7 +23,6 @@ public class gamescreen extends ApplicationAdapter {
 		batch.draw(img, 0, 0);
 		batch.end();
 	}
-	
 	@Override
 	public void dispose () {
 		batch.dispose();
